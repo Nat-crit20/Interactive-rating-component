@@ -44,30 +44,32 @@ Users should be able to:
 
 When I had started this project I started with 5 normal buttons but when I got to the implementing javascript I had trouble making it so that I could only select one button at a time. I then started to wonder if I could use a radio button and I just so happens that I could. So I then learned how to some cs to make it so that the radio buttons appear like normal buttons
 
+```css
 .radio_input {
-display: none;
+  display: none;
 }
 .radio_label {
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #282e34;
-width: 2.5rem;
-height: 2.5rem;
-border-radius: 100%;
-color: hsl(217, 12%, 63%);
-font-size: 15px;
-border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282e34;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  border: none;
 }
 .radio_label:hover {
-color: white;
-background-color: hsl(25, 97%, 53%);
-cursor: pointer;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 .radio_input:checked + .radio_label {
-color: white;
-background-color: grey;
+  color: white;
+  background-color: grey;
 }
+```
 
 The last style was what I found the most tricky. Afterwards I went onto the javascript, the only trouble I had with this is obtaining the form data after the submition. I then learned of FormData(), it only took me a few minutes to find various methods to obtain the values.
 
