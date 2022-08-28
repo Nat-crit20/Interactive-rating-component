@@ -17,6 +17,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <script defer src="script.js"></script>
 
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
@@ -33,12 +34,48 @@
             feedback is appreciated to help us improve our offering!
           </p>
           <div class="ratings">
-            <button type="button" value="rating-1">1</button>
-            <button type="button" value="rating-2">2</button>
-            <button type="button" value="rating-3">3</button>
-            <button type="button" value="rating-4">4</button>
-            <button type="button" value="rating-5">5</button>
+            <input
+              type="radio"
+              class="radio_input"
+              name="rating"
+              id="rating-1"
+              value="1"
+            />
+            <label for="rating-1">1</label>
+            <input
+              type="radio"
+              class="radio_input"
+              name="rating"
+              id="rating-2"
+              value="2"
+            />
+            <label for="rating-2">2</label>
+            <input
+              type="radio"
+              class="radio_input"
+              name="rating"
+              id="rating-3"
+              value="3"
+            />
+            <label for="rating-3">3</label>
+            <input
+              type="radio"
+              class="radio_input"
+              name="rating"
+              id="rating-4"
+              value="4"
+            />
+            <label for="rating-4">4</label>
+            <input
+              type="radio"
+              class="radio_input"
+              name="rating"
+              id="rating-5"
+              value="5"
+            />
+            <label for="rating-5">5</label>
           </div>
+
           <input class="submit" type="submit" />
         </form>
       </div>
