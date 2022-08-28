@@ -1,4 +1,5 @@
 body {
+  font-family: "Overpass", sans-serif;
   background-color: hsl(216, 12%, 8%);
 }
 .container {
@@ -7,8 +8,64 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 3rem;
+  padding: 1.5rem 1rem 0.5rem 1rem;
   border-radius: 10%;
+  width: 300px;
+}
+.form-card {
+  display: contents;
+}
+.star-img {
+  background-color: #282e34;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+}
+.star-img img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-card h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.form-card p {
+  color: hsl(217, 12%, 63%);
+  font-size: 13px;
+  margin-top: 0;
+}
+
+.form-card button {
+  background-color: #282e34;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  border: none;
+}
+.ratings {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0 1rem 0;
+}
+
+.form-card .submit {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-size: 15px;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  border-radius: 2rem;
+  margin: 2rem 0 0 0;
+  padding: 0.5rem 0;
+  width: 95%;
 }
 
 .thanks-card {
