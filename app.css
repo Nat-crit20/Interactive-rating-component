@@ -11,6 +11,7 @@ body {
   padding: 1.5rem 1rem 0.5rem 1rem;
   border-radius: 10%;
   width: 300px;
+  height: 300px;
 }
 .form-card {
   display: contents;
@@ -80,4 +81,26 @@ body {
 
 .thanks-card {
   display: none;
+  text-align: center;
+}
+#thanks-rating {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+#thanks-rating p {
+  color: hsl(25, 97%, 53%);
+  background-color: #282e34;
+  margin: 0;
+  border-radius: 2rem;
+  width: 200px;
+}
+.thanks-card h2 {
+  color: white;
+  margin: 0 0 0.5rem 0;
+}
+.thanks-card p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-top: 0;
 }
