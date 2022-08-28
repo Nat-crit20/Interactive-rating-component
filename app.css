@@ -38,7 +38,13 @@ body {
   margin-top: 0;
 }
 
-.form-card button {
+.radio_input {
+  display: none;
+}
+.radio_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #282e34;
   width: 2.5rem;
   height: 2.5rem;
@@ -47,14 +53,19 @@ body {
   font-size: 15px;
   border: none;
 }
-.form-card button:hover {
+.radio_label:hover {
   color: white;
   background-color: hsl(25, 97%, 53%);
   cursor: pointer;
 }
+.radio_input:checked + .radio_label {
+  color: white;
+  background-color: grey;
+}
 .ratings {
   display: flex;
   justify-content: space-around;
+
   margin: 1rem 0 1rem 0;
 }
 
