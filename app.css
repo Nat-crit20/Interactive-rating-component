@@ -46,6 +46,11 @@ body {
   font-size: 15px;
   border: none;
 }
+.form-card button:hover {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
 .ratings {
   display: flex;
   justify-content: space-around;
@@ -66,6 +71,11 @@ body {
   margin: 2rem 0 0 0;
   padding: 0.5rem 0;
   width: 95%;
+}
+.form-card .submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 .thanks-card {
