@@ -7,10 +7,11 @@ const thanksRating = document.querySelector("#thanks-rating");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   const data = new FormData(form);
-  let output;
-  for (const value of data.values()) {
-    output = `<p>You selected ${value} out of 5</p>`;
+  let value = data.get("rating");
+  if (!value) {
+    return;
   }
+  let output = `<p>You selected ${value} out of 5</p>`;
   thanksRating.innerHTML = output;
   formCard.style.display = "none";
   thanksCard.style.display = "contents";
