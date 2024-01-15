@@ -21,7 +21,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size
+- View the optimal layout for the app depending on the device's screen size
 - See hover states for all interactive elements on the page
 - Select and submit a number rating
 - See the "Thank you" card state after submitting a rating
@@ -71,7 +71,7 @@ When I had started this project I started with 5 normal buttons but when I got t
 }
 ```
 
-The last style was what I found the most tricky. Afterwards I went onto the javascript, the only trouble I had with this is obtaining the form data after the submition. I then learned of FormData(), it only took me a few minutes to find various methods to obtain the values.
+The last style was what I found the most tricky. Afterward, I went onto the javascript, the only trouble I had with this was obtaining the form data after the submission. I then learned of FormData(), and it only took me a few minutes to find various methods to obtain the values.
 
 ### Continued development
 
@@ -83,4 +83,4 @@ After going through this challenge I need to continue to learn more about form d
 
 ## Author
 
-- Frontend Mentor - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
+- Frontend Mentor - [@Nat-crit20](https://www.frontendmentor.io/profile/Nat-crit20)
